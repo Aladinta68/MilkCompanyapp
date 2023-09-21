@@ -31,7 +31,7 @@ const Medicalexam = () => {
   }, [error, navigate]);
   return (
       <Box flex="1" display={'flex'} justifyContent={'center'} alignItems={'center'} flexDirection={'column'}>
-        <Header image={medical} title="Medical Examination" description="Manage your medical examination" />
+        <Header image={medical} title="Examination" description="Manage your examination" />
         <Box py={5} minH={'66vh'} px={isLargerThan768 ? 20 : 0} width={'100%'} display={'flex'}  justifyContent={'space-between'}  alignItems={'center'} flexDirection={'column'}>
           <Medicalexamtable />
           <Pagination pageCount={pageCount} />
