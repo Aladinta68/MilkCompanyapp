@@ -23,7 +23,7 @@ Explore the open-source code and collaborative development behind Milkcompany's 
 # Clone this repository 
 $ git clone https://github.com/Aladinta68/MilkCompanyapp.git
 # Go to the project directory
-$ cd Milkcompany
+$ cd Milkcompanyapp
 # Go to the server directory
 $ cd server
 # Then install dependencies of server
